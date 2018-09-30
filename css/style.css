@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 60.5%; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box; }
+
+.admin_header{
+  background-color: #666;
+  padding: 35px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  position: relative;
+}
+
+.logo-box{
+  position: absolute;
+  top: 9px;
+  left: 50%;
+}
+
+.logo{
+  height: 35px;
+}
+
+.admin_control{
+  width: 300px;;
+  height: 84vh;
+  background-color: #ccc;
+}
+
+ul li{
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.admin_footer{
+  background-color: #777;
+  height: 37px;
+  text-align: center;
+  color: white;
+}
